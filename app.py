@@ -18,7 +18,7 @@ engine = create_engine("sqlite:///hawaii.sqlite")
 
 Base = automap_base()
 
-# reflect the database
+# reflect (make a copy of) the database
 Base.prepare(engine, reflect=True)
 
 # create a variable for each of the classes so that we can reference them later
