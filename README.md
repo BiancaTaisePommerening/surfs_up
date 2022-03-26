@@ -8,18 +8,19 @@ information about Oahu' temperature trends. Specifically, he wants temperature d
 
 ## Results
 
-In order to gather the results SQLAlchemy was used to query the SQLite database, while Python's Matpotlib library was use to plot the temperatures.
+In order to gather the results SQLAlchemy was used to query the SQLite database, while Python's Matplotlib library was use to plot the temperatures.
 
 ### June Temperature Statistics
 
 - The image bellow represents the summary statistics for the June temperature DataFrame (june_df).
     - Average temperature 75F
-    - Minimun temperarature 64F
+    - Minimun temperature 64F
     - Maximun temperature 85F
 
 ![june_temps_describe](./Resources/june_temps_describe.png)
 
-- The following chart shows the temperature frequency over the years during the month of June.
+- The following chart shows the temperature frequency over the years during the month of June. It was separated into 15 different bins, and it can be seen that the frequency of temperatures was higher between 71F and 79F, which supports the average temperature of 75F found on the previous query (on the image above).
+
 
 ![june_temps_plot](./Resources/june_temps_plot.png)
 
@@ -29,13 +30,13 @@ In order to gather the results SQLAlchemy was used to query the SQLite database,
 
 - The following image shows the summary statistics for the December temperature DataFrame (december_df).
     - Average temperature 71F
-    - Minimun temperarature 56F
+    - Minimun temperature 56F
     - Maximun temperature 83F
 
 ![december_results](./Resources/december_temps_describe.png)
 
 
-- The following chart shows the temperature frequency over the years during the month of December.
+- The following histogram shows the temperature frequency over the years during the month of December. It was separated into 15 different bins, and it can be seen that the frequency of temperatures was higher between 69F and 72F, which supports the average temperature of 71F found on the previous query (on the image above).
 
 ![december_temps_plot](./Resources/december_temps_plot.png)
 
@@ -46,7 +47,7 @@ In order to gather the results SQLAlchemy was used to query the SQLite database,
 In addition to the temperature for the months of June and December, another relevant data statistics that can help on the decision to open of not the shop, would be the amount of precipitation.
 
 
-### June Precipitation Satistics
+### June Precipitation Statistics
 
 - The following image shows the summary statistics for the June precipitation DataFrame (june_precipitation_df).
 
@@ -88,6 +89,7 @@ The comparisons above indicates that although it can get a little cooler special
  - June's maximum amount of precipitation was 4.43 inches while December was 6.42 inches, with an increase of 31% compared to June. 
 
 The comparison above indicates that although there are days that it can rain a lot specially during December, both months had pretty low average amount of rain indicating that overall the weather is pretty stable for these months, with mostly light rain making it ideal for going surfing and eating ice cream.
+
 
 
 
